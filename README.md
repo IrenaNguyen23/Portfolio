@@ -1,4 +1,4 @@
-# portofolio-v2
+# portofolio
 
 ## Project setup
 ```
