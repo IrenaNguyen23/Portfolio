@@ -18,8 +18,8 @@ export default {
         },
         {
           id: 3,
-          name: 'PHP',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
+          name: 'Java',
+          imageUrl: 'https://i.imgur.com/M0HlIxx.png',
           status: 'Advanced'
         },
         {
@@ -30,33 +30,33 @@ export default {
         },
         {
           id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
+          name: 'TypeScript',
+          imageUrl: 'https://img.icons8.com/?size=100&id=nCj4PvnCO0tZ&format=png&color=000000',
+          status: 'Intermediate'
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Intermediate'
+          name: 'Spring Boot',
+          imageUrl: 'https://img.icons8.com/?size=100&id=90519&format=png&color=000000',
+          status: 'Advance'
         },
         {
           id: 7,
           name: 'VueJS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
+          status: 'Beginner'
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          name: 'NextJS',
+          imageUrl: 'https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000',
           status: 'Beginner'
         },
         {
           id: 9,
           name: 'NodeJS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
+          status: 'Intermediate'
         },
         {
           id: 10,
@@ -68,13 +68,13 @@ export default {
           id: 11,
           name: 'Bootstrap',
           imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
+          status: 'Advance'
         },
         {
           id: 12,
           name: 'ReactJS',
           imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
+          status: 'Advance'
         }
       ],
       tools: [
@@ -102,6 +102,30 @@ export default {
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
           status: 'Database'
         },
+        {
+          id: 5,
+          name: "Docker",
+          imageUrl: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+          status: "Containerization Tool"
+        },
+        {
+          id: 6,
+          name: "Apache Kafka",
+          imageUrl: "https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000",
+          status: "Streaming Platform"
+        },
+        {
+          id: 7,
+          name: "Redis",
+          imageUrl: "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000",
+          status: "In-Memory Database"
+        },
+        {
+          id: 8,
+          name: "MongoDB",
+          imageUrl: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000",
+          status: "NoSQL Database"
+        }
       ]
     };
   }
@@ -128,14 +152,16 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Nguyễn Bảo Hòa. I'm a web developer from Ho Chi Minh City, Viet
+            Nam. I
             have 1 year of experience in back-end web development.
             I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
             has
             aesthetic value
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
+            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still
+            attractive.
             In addition, I provide a personal touch to your product and ensure that the website catches attention and is
             easy to use.
             My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
@@ -162,11 +188,13 @@ export default {
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech
+                Stack</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }"
+                @click="activeTab = 2">Tools</button>
             </li>
           </ul>
         </div>
@@ -181,7 +209,8 @@ export default {
                     :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name
+                    }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
@@ -202,7 +231,8 @@ export default {
                     :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name
+                    }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
