@@ -152,21 +152,48 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Nguyễn Bảo Hòa. I'm a web developer from Ho Chi Minh City, Viet
-            Nam. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Nguyễn Bảo Hòa. I'm a web developer from Ho Chi Minh City, Viet Nam.
+            I have 1 year of experience in back-end web development. I really enjoy what I do right now, in my opinion,
+            creating programs is not just a job, but also an art that has aesthetic value.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still
-            attractive.
+            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
             In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+            easy to use. My goal is to convey your message and identity in the most creative way.
           </p>
+
+          <!-- Contact Me Section -->
+          <div class="mt-6 p-4 bg-amber-200 bg-opacity-10 rounded-xl shadow-md hover:shadow-amber-300 transition duration-300 ease-in-out">
+            <h3 class="text-xl font-semibold text-amber-300 mb-4 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0-1.243 1.007-2.25 2.25-2.25h15a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-15A2.25 2.25 0 0 1 2.25 17.25V6.75z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75l9.75 6.75 9.75-6.75" />
+              </svg>
+              Contact Me
+            </h3>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-amber-400">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25L12 13.5l9.75-5.25M2.25 8.25v7.5A2.25 2.25 0 0 0 4.5 18h15a2.25 2.25 0 0 0 2.25-2.25v-7.5M2.25 8.25L12 3l9.75 5.25" />
+                </svg>
+                <span>Email:</span> <a href="mailto:nguyenbaohoa02@gmail.com" class="text-amber-300 hover:underline">nguyenbaohoa02@gmail.com</a>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-amber-400">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 4.5l4.5 4.5m0 0l4.5-4.5m-4.5 4.5V19.5" />
+                </svg>
+                <span>Phone:</span> <a href="tel:+84967671780" class="text-amber-300 hover:underline">+84 967 671 780</a>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-amber-400">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75H7.5A2.25 2.25 0 0 0 5.25 6v12A2.25 2.25 0 0 0 7.5 20.25h9a2.25 2.25 0 0 0 2.25-2.25V6A2.25 2.25 0 0 0 16.5 3.75z" />
+                </svg>
+                <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/irenanguuyen203/" target="_blank" class="text-amber-300 hover:underline">linkedin.com/in/nguyenbaohoa</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End Contact Me Section -->
+
         </div>
 
       </section>

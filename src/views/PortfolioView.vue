@@ -11,7 +11,7 @@ export default {
           status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
           tech: 'VueJS 3, Tailwind',
           github: 'https://github.com/IrenaNguyen23/Portfolio',
-          demo: 'https://bagasrakha.netlify.app/'
+          demo: 'null'
         },
         {
           id: 2,
@@ -39,6 +39,15 @@ export default {
           tech: 'Spring Boot, React, Tailwind',
           github: 'null',
           demo: 'https://instagram-gamma-nine.vercel.app'
+        },
+        {
+          id: 5,
+          name: 'Social Media',
+          imageUrl: 'social',
+          status: 'Developed a social media application IrenaSocial, focusing on user experience and integrating features such as post sharing, interactions, and friend connections.',
+          tech: 'NextJS, Tailwind, Prisma, MySQL',
+          github: 'null',
+          demo: 'https://irenasocial.vercel.app/'
         },
       ]
     };
