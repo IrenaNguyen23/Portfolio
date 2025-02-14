@@ -25,7 +25,7 @@ export default {
         {
           id: 4,
           name: 'Javascript',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+          imageUrl: 'https://img.icons8.com/?size=100&id=108784&format=png&color=000000',
           status: 'Advance'
         },
         {

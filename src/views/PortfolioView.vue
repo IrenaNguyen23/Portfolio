@@ -18,7 +18,7 @@ export default {
           name: 'Booking Website',
           imageUrl: 'sahabatmuslim',
           status: 'Online booking platform that provides digital-based travel services that make it easier for people to experience the world.',
-          tech: 'Spring Boot, React, Bootstrap',
+          tech: 'Spring Boot, React, Material UI, MySQL',
           github: 'null',
           demo: 'https://booking-six-wheat.vercel.app/'
         },
@@ -27,7 +27,7 @@ export default {
           name: 'Ecommerce Website',
           imageUrl: 'sistekdes',
           status: 'Online store platform for various products and services. Customers can shop for products from all over the country',
-          tech: 'Spring Boot, React, Bootstrap',
+          tech: 'Spring Boot, React, Bootstrap, MySQL',
           github: 'null',
           demo: 'https://e-commerce-five-coral.vercel.app/'
         },
@@ -36,7 +36,7 @@ export default {
           name: 'Instagram',
           imageUrl: 'sp2se',
           status: 'A web application rebuilt from the social network Instagram with similar functions.',
-          tech: 'Spring Boot, React, Tailwind',
+          tech: 'Spring Boot, React, Tailwind, Cloudinary, MySQL',
           github: 'null',
           demo: 'https://instagram-gamma-nine.vercel.app'
         },
@@ -45,9 +45,18 @@ export default {
           name: 'Social Media',
           imageUrl: 'social',
           status: 'Developed a social media application IrenaSocial, focusing on user experience and integrating features such as post sharing, interactions, and friend connections.',
-          tech: 'NextJS, Tailwind, Prisma, MySQL',
+          tech: 'NextJS, Tailwind, Prisma, MySQL, Clerk, Cloudinary',
           github: 'null',
           demo: 'https://irenasocial.vercel.app/'
+        },
+        {
+          id: 6,
+          name: 'Food Ordering App',
+          imageUrl: 'bumdesma',
+          status: ' Developed a full-stack food ordering application featuring a user-friendly interface, secure authentication  and seamless payment integration.',
+          tech: 'React, Node, MongoDB, TypeScript, Shadcn, Tailwind, Auth0, Stripe, Cloudinary.',
+          github: 'null',
+          demo: 'https://mern-food-ordering-app-frontend-ljf8.onrender.com/'
         },
       ]
     };
