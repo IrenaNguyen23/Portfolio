@@ -30,7 +30,7 @@
     <div class="flex justify-center md:justify-start fadein-right">
       <img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
         class="w-[300px] h-[300px] object-cover rounded-full border-4 border-amber-200 pict"
-        src="https://res.cloudinary.com/du1zhypcz/image/upload/v1759371495/bee7102301dd8b83d2cc_cjx8tz.jpg">
+        src="https://res.cloudinary.com/du1zhypcz/image/upload/v1763994711/unnamed_nihmkw.jpg">
     </div>
 
 

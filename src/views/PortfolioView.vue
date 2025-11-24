@@ -71,9 +71,9 @@ export default {
         },
         {
           id: 2,
-          name: 'Schoolux - Full Stack Developer',
+          name: 'Schoolux - Software Engineer',
           duration: 'Oct 2025 – Current',
-          tech: 'Java, Spring Boot, React, HTML/CSS, PostgreSQL, JSON/CSV, Kafka, Docker, Rancher, GitLab CI/CD, Microservices.',
+          tech: 'Java, Spring Boot, NodeJs, PostgreSQL, MongoDB, Kafka, Docker, Jenkins, Meltano, Github CI/CD, Microservices.',
           companyLogo: 'https://static.wixstatic.com/media/65f558_619ab57e5d004dd1a1edffd5b1cb4752~mv2.png/v1/fill/w_195,h_64,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/65f558_619ab57e5d004dd1a1edffd5b1cb4752~mv2.png', 
           github: 'null',
           demo: 'null'

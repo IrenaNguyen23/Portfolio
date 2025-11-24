@@ -148,7 +148,7 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-[300px] h-[300px] object-cover rounded-full mb-3 fadein-up border-4 border-amber-200"
-            src="https://res.cloudinary.com/du1zhypcz/image/upload/v1759371495/bee7102301dd8b83d2cc_cjx8tz.jpg"
+            src="https://res.cloudinary.com/du1zhypcz/image/upload/v1763994711/unnamed_nihmkw.jpg"
             alt="Foto">
         </div>
 
