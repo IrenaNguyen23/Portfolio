@@ -148,7 +148,7 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-[300px] h-[300px] object-cover rounded-full mb-3 fadein-up border-4 border-amber-200"
-            src="https://res.cloudinary.com/du1zhypcz/image/upload/v1763994711/unnamed_nihmkw.jpg"
+            src="https://res.cloudinary.com/du1zhypcz/image/upload/v1765126302/Fugou_Keiji_%EB%B6%80%ED%98%B8%ED%98%95%EC%82%AC_%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_The_Millionaire_Detective_gtrpme.jpg"
             alt="Foto">
         </div>
 

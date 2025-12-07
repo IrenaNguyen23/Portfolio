@@ -30,7 +30,7 @@
     <div class="flex justify-center md:justify-start fadein-right">
       <img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
         class="w-[300px] h-[300px] object-cover rounded-full border-4 border-amber-200 pict"
-        src="https://res.cloudinary.com/du1zhypcz/image/upload/v1763994711/unnamed_nihmkw.jpg">
+        src="https://res.cloudinary.com/du1zhypcz/image/upload/v1765126302/Fugou_Keiji_%EB%B6%80%ED%98%B8%ED%98%95%EC%82%AC_%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_The_Millionaire_Detective_gtrpme.jpg">
     </div>
 
 
